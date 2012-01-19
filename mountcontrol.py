@@ -1,10 +1,8 @@
 #!/usr/bin/env python
-'''Tree View/List Store
-
-The GtkListStore is used to store data in list form, to be used
-later on by a GtkTreeView to display it. This demo builds a
-simple GtkListStore and displays it. See the Stock Browser
-demo for a more advanced example.'''
+'''
+GTK Control for fuser mounts. User can mount/unmount preconfigured
+Mountpoints (fuse). Tested only with sshfs so far
+'''
 
 import gobject
 import gtk
